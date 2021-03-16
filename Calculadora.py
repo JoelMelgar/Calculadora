@@ -10,7 +10,7 @@ pop = True
 while pop == True:
     try:
         print(menu)
-        op = int(input("Escoja una operacion:"))
+        op = int(input("Escoja una operacion: "))
         if op == 1:
             numero1 = float(input("Inserte el primer Numero: "))
             numero2 = float(input("Inserte el segundo numero: "))
@@ -36,7 +36,7 @@ while pop == True:
                 print("La division dentro de cero no es permitida")
         elif op == 5:
             pop = False
-            print("Gracias por utilizar la calculadora")
+            print("Gracias por utilizar la aplicacion de calculadora")
         else:
             print("Opcion no valida")
     except ValueError as i:
